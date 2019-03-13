@@ -36,4 +36,10 @@ public class PrimeNo {
 		else
 			return false;
 	}
+	
+	public static boolean checkOdd(int i) {
+		if(i%2==1) return true;
+		else
+			return false;
+	}
 }
